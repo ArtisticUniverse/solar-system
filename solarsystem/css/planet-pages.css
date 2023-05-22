@@ -1,0 +1,108 @@
+<html>
+<body> 
+    margin: 0px;
+    padding: 0px;
+
+<p>
+    color: rgb(112,111,176);
+</p>
+
+
+.header
+{
+    margin: 0px;
+    min-height: 15vh;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+    width: 70vw;
+    padding: 0px;
+    background-color: #000000;
+}
+
+.header li{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    padding-left: 2%;
+    padding-right: 2%;
+    min-width: 7%;
+    margin: 0px;
+    text-align: center;
+
+}
+
+.other a{
+    color: #ffffff;
+    background-color: #000000;
+}
+
+ .current a, .current, .other:hover a, .other:hover{
+    background-color: rgb(112,111,176);
+}
+
+
+/*content*/
+.content{
+    margin-top: 15vh;
+    display: flex;
+    margin: 2vh;
+}
+
+.smaller{
+    color: #121212;
+}
+
+.content h1{
+    color: #001d4d;
+    text-shadow: 4px 4px 4px #7688a6;
+}
+
+.source{
+    font-style: italic;
+    color: #303030;
+    width: 100%;
+    text-align: end;
+}
+
+.source a{
+    color: #a3b8a0;
+    text-decoration-line: underline;
+}
+
+.image-box{
+    min-width: 30vw;
+    margin-right: 3%;
+    position: relative;
+}
+
+.image-box img{
+    width: 100%; 
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px #000000;   
+    position: absolute;
+}
+
+.text-box{
+    padding-bottom: 7%;
+    padding-right: 7%;
+}
+
+.text-box li{
+    margin-top: 2%;
+}
+
+.spaceDiv{
+    min-hei
+}
